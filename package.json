@@ -1,0 +1,13 @@
+{
+  "name": "slack-bot-exercise",
+  "version": "1.0.0",
+  "description": "A simple Slack bot built with Bolt for JavaScript that responds to messages, handles /hello, and logs events.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.18.0",
+    "dotenv": "^16.4.5"
+  }
+}
